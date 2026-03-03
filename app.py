@@ -1,5 +1,6 @@
 import sys
 import io
+import os
 import base64
 from pathlib import Path
 from flask import Flask, request, jsonify, render_template
@@ -55,4 +56,4 @@ def generate():
 if __name__ == '__main__':
     print('[카드뉴스 웹 서버 시작]')
     print('   http://localhost:5000')
-    app.run(debug=False, port=5000)
+    app.run(debug=False, host='0.0.0.0', port=int(os.environ.get('PORT', 5000)))
