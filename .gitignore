@@ -1,0 +1,22 @@
+# 생성된 출력물
+output_*/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+.env
+venv/
+env/
+
+# Claude 내부
+.claude/
+
+# 임시 파일
+*.tmp
+viewer.html

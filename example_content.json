@@ -1,0 +1,82 @@
+{
+  "title": "AI가 바꾸는 콘텐츠 마케팅",
+  "theme": "blue",
+  "brand": "POPUP STUDIO AI",
+  "cards": [
+    {
+      "type": "cover",
+      "series": "MARKETING TREND 2026",
+      "title": "AI가 바꾸는\n콘텐츠 마케팅",
+      "subtitle": "당신의 마케팅이 달라져야 하는 이유"
+    },
+    {
+      "type": "content",
+      "title": "AI 마케팅이란?",
+      "tags": ["AI", "마케팅"],
+      "body": "AI 마케팅은 인공지능 기술을 활용해 고객 데이터를 분석하고 개인화된 콘텐츠를 자동으로 생성·배포하는 마케팅 방식입니다.",
+      "points": [
+        "고객 행동 예측 및 맞춤형 추천",
+        "자동화된 콘텐츠 생성과 배포",
+        "실시간 성과 분석과 최적화"
+      ]
+    },
+    {
+      "type": "stat",
+      "title": "AI 마케팅 현황 2026",
+      "stats": [
+        {
+          "value": "87%",
+          "label": "기업 도입률",
+          "change": "+23%"
+        },
+        {
+          "value": "3.2x",
+          "label": "ROI 향상",
+          "change": "+0.8x"
+        },
+        {
+          "value": "68%",
+          "label": "비용 절감",
+          "change": "+15%"
+        },
+        {
+          "value": "4.5억",
+          "label": "시장 규모(달러)",
+          "change": "+1.2억"
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": "AI 마케팅 핵심 전략 5가지",
+      "items": [
+        "데이터 기반 고객 세그멘테이션으로 정밀 타겟팅",
+        "생성형 AI로 콘텐츠 제작 시간 80% 단축",
+        "챗봇과 자동화로 24/7 고객 응대",
+        "예측 분석으로 이탈 고객 사전 방어",
+        "A/B 테스트 자동화로 성과 지속 개선"
+      ]
+    },
+    {
+      "type": "quote",
+      "text": "AI는 마케터를 대체하는 게 아니라\nAI를 쓰는 마케터가\nAI를 안 쓰는 마케터를 대체한다.",
+      "source": "— 마케팅 업계 화두, 2026"
+    },
+    {
+      "type": "content",
+      "title": "지금 당장 시작하는 방법",
+      "tags": ["실전", "액션"],
+      "body": "복잡한 AI 도구 없이도 시작할 수 있습니다. 작은 실험부터 빠르게 시작해 데이터를 쌓는 것이 핵심입니다.",
+      "points": [
+        "ChatGPT로 콘텐츠 초안 작성 자동화",
+        "Google Analytics 4의 AI 인사이트 활용",
+        "Meta Advantage+ 광고 자동최적화 적용"
+      ]
+    },
+    {
+      "type": "end",
+      "title": "지금 시작하세요",
+      "cta": "AI 마케팅 무료 컨설팅 신청\njack@popupstudio.ai"
+    }
+  ]
+}
