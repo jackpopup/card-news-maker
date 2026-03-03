@@ -13,14 +13,23 @@ from PIL import Image, ImageDraw, ImageFont, ImageFilter
 
 # ─── 상수 ───────────────────────────────────────────────────────────────────
 CARD_SIZE = (1080, 1080)
-FONT_DIR = Path("C:/Windows/Fonts")
 
-# 폰트 경로
-FONTS = {
-    "regular": FONT_DIR / "malgun.ttf",
-    "bold": FONT_DIR / "malgunbd.ttf",
-    "light": FONT_DIR / "malgunsl.ttf",
-}
+# 폰트 경로 (Windows 로컬 우선, 없으면 번들 폰트 사용)
+_WIN_FONTS = Path("C:/Windows/Fonts")
+if _WIN_FONTS.exists():
+    FONT_DIR = _WIN_FONTS
+    FONTS = {
+        "regular": FONT_DIR / "malgun.ttf",
+        "bold":    FONT_DIR / "malgunbd.ttf",
+        "light":   FONT_DIR / "malgunsl.ttf",
+    }
+else:
+    FONT_DIR = Path(__file__).parent / "fonts"
+    FONTS = {
+        "regular": FONT_DIR / "NotoSansKR-Regular.ttf",
+        "bold":    FONT_DIR / "NotoSansKR-Bold.ttf",
+        "light":   FONT_DIR / "NotoSansKR-Regular.ttf",
+    }
 
 # 컬러 테마 정의
 THEMES = {
